@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="header_reservations">
+        <div id="logo_nav">
+            <div id="logo_header">
+                <a href="index.html">
+                    <img src="Images/logo.png" alt="exemple plat">
+                </a>
+            </div>
+
+            <nav>
+                <ul>
+                    <li>
+                        <a href="restaurant_menu_2.html">menu</a>
+                    </li>
+                    <li>
+                        <a href="restaurant_about.html">about</a>
+                    </li>
+                    <li>
+                        <a href="restaurant_functions.html">functions</a>
+                    </li>
+                    <li>
+                        <a href="restaurant_news_2.html">news</a>
+                    </li>
+                    <li>
+                        <a href="restaurant_reservations_2.html">reservations</a>
+                    </li>
+                    <li>ph:(03) 6638 2918</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="almost_header">
+        <h1>make a reservation</h1>
+
+        <div id="divide"></div>
+
+        <p>Reserve a table for an unforgettable dining experience and arrive early 
+            to enjoy a cocktail at the bar
+        </p>
+
+        <div id="badge">
+            <img src="images/badge.png" alt="badge">
+        </div>
+    </section>
+
+        <main>
+        <section id="block_form">
+            <form method="post" action="traitement.php">
+                <div id="first_row">
+                    <div id="name">
+                        <label for="name">Name:</label>
+                        <input type="text" name="Name" id="name" placeholder="Enter your name"/>
+                    </div>
+
+                    <div id="number">
+                        <label for="number">Contact Number:</label>
+                        <input type="text" name="number" id="number" placeholder="Enter contact number here"/>
+                    </div>
+                </div>
+
+                <div id="second_row">
+                    <div id="event">
+                        <label for="event">Date:</label>
+                        <input type="text" name="event" id="event" placeholder="eg. 01/02/2017"/>
+                    </div>
+
+                    <div id="size">
+                        <label for="size">Party Size (approx):</label>
+                        <input type="text" name="size" id="size" placeholder="eg. 20 people"/>
+                    </div>
+                </div>
+
+                <div id="lonesome_cowboy"></div>
+                    <label for="info">Additional Information:</label>
+                    <textarea rows="10" cols="80" placeholder="Any special dietary requirements etc."></textarea>
+                </div>
+                    
+                <input type="submit" value="Send Reservation"/>
+                
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        
+        <div id="content_and_logo">
+            <div id="logo_footer">
+                <img src="images/logo.png" alt="logo">
+            </div>
+    
+            <div id="footer_content">
+                <div id="location">
+                    <h2>location</h2>
+                    <p>14 Paramore Street<br/>
+                        Mornington Peninsula <br/>
+                        Victoria 3552</p>
+                </div>
+    
+                <div id="contact">
+                    <h2>contact</h2>
+                    <p>P: (03) 9283 4726<br/>
+                    <a href="">enquiries@mill.co</a></p>
+                </div>
+    
+                <div id="hours">
+                    <h2>opening hours</h2>
+                    <p>Wed - Sat, 12-3pm l 6pm-late<br/>
+                        Sun, 12 noon til 3pm<br/>
+                        Mon - Tues, closed</p>
+                </div>
+    
+                <div id="social">
+                    <h2>social</h2>
+                    <img src="images/social_instagram.png" alt="instagram">
+                    <img src="images/social_facebook.png" alt="facebook">
+                    <img src="images/social_tripadvisor.png" alt="tripadvisor">
+                    <img src="images/social_zomato.png" alt="zomato">
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
